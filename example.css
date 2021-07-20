@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+}
+h1 {
+  color: white;
+}
+
+header {
+  background-color: green;
+  height: 25px;
+  width: 100%;
+  left: 0;
+  top: 0 !important;
+}
+
+footer {
+  background-color: red;
+  height: 25px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.cntraveler.com/photos/60480c67ff9cba52f2a91899/16:9/w_2991,h_1682,c_limit/01-velo-header-seattle-needle.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+.pic1 {
+  width: 100%;
+  align-content: center;
+  
+}
+
+.text1 {
+  
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+  color: black;
+}
